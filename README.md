@@ -1,3 +1,7 @@
+# ideanote-eight.vercel.app
+
+- 🔝 구경해보세요 😊
+
 ## DoseungYang Note
 
 이 프로젝트는 개인적으로 아이디어를 기록하고 메모하기 위해 제작되었습니다. Next.js와 TypeScript를 사용하여 개발하였으며, Tailwind CSS를 통해 스타일링을 구현하였습니다. 또한 Supabase를 백엔드로 사용하여 데이터베이스를 구축하였으며, 기본적인 CRUD (Create, Read, Update, Delete) 기능을 포함하고 있습니다.
