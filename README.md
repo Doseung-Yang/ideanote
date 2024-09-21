@@ -4,3 +4,10 @@
 
 - Next.js typescript
 - supabase
+
+패치 노트
+[노트 APP]
+[추가]
+[검색]
+[수정]
+[삭제]
