@@ -1,6 +1,4 @@
-# ideanote-eight.vercel.app
-
-- 🔝 구경해보세요 😊
+- 🔜🔜 [구경해보세요 😊](https://ideanote-eight.vercel.app)
 
 ## DoseungYang Note
 

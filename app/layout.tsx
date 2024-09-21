@@ -24,7 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
+      <head>
+        <title>도승 노트 앱</title>
+        <meta name="description" content="혼자 메모하려고 만든 앱" />
+        <meta property="og:url" content="https://ideanote-eight.vercel.app" />
+        <meta property="og:title" content="도승 노트 앱" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://i.ibb.co/8cfPHSD/note.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
