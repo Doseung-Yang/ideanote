@@ -1,5 +1,4 @@
 "use client";
-
 import { supabase } from "@/utils/supabase";
 import { useEffect, useState } from "react";
 

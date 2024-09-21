@@ -12,7 +12,7 @@ export default function Sidebar({
     <aside className="absolute top-0 left-0 bottom-0 w-1/3 overflow-y-scroll p-2 border-r border-gray-300">
       <button
         onClick={() => setIsCreating(true)}
-        className="p-2 text-lg font-bold border border-gray-600 rounded-lg w-full"
+        className="p-2 text-sm font-bold border border-gray-600 rounded-lg w-full"
       >
         ➕ 새로운 노트
       </button>
