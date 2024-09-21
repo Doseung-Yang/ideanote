@@ -9,7 +9,7 @@ export default function Sidebar({
   notes,
 }) {
   return (
-    <aside className="absolute top-0 left-0 bottom-0 w-1/3 overflow-y-scroll p-2 border-r border-gray-300">
+    <aside className="absolute top-0 left-0 bottom-0 w-1/3 overflow-y-scroll overflow-x-hidden p-2 border-r border-gray-300">
       <button
         onClick={() => setIsCreating(true)}
         className="p-2 text-sm font-bold border border-gray-600 rounded-lg w-full"
@@ -28,7 +28,9 @@ export default function Sidebar({
         {notes.map((note) => (
           <li key={note.id}>
             <button
-              className={`${activeNoteId === note.id ? "font-bold" : ""}`}
+              className={`${
+                activeNoteId === note.id ? "font-bold" : ""
+              } overflow-hidden text-ellipsis whitespace-nowrap`}
               onClick={() => {
                 setIsCreating(false);
                 setActiveNoteId(note.id);
