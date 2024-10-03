@@ -67,7 +67,10 @@ export default function NoteViewer({ note, setActiveNoteId, fetchNotes }) {
             {title}
           </h1>
 
-          <p className="border rounded-md border-gray-300 text-xl p-2">
+          <p
+            className="border rounded-md border-gray-300 text-xl p-2"
+            style={{ whiteSpace: "pre-wrap" }}
+          >
             {content}
           </p>
         </>
